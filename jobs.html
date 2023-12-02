@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javajam.css">
+    <title>javaJam Cofee House Menu</title>
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a> </li>
+            <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- question 7 task 3 task 2 havent -->
+        <div id="heromugs"></div>
+        <h2>Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam? Fill out the form below to start yourapplication.</p>
+
+        <form action="https://webdevbasics.net/scripts/javajam8.php" method="post">
+            <label for="myName">*Name:</label>
+            <input name="Names" type="text" required><br>
+            <label for="myEmail">*E-mail:</label>
+            <input name="Emails" type="email" required><br>
+            <label for="myExperience">*Experience:</label>
+            <textarea rows = "2" cols = "20" name="Experiences" id="myExperience" required></textarea>
+            <br>
+            <input type="submit" value="Apply now" id="mySubmit">
+        </form>
+</main>
+    <footer>    
+        Copyright © 2018 JavaJam Coffee House<br>
+        <a href="mailto:ezhen@gmail.com">ezhen@gmail.com</a>
+</footer>
+</div>
+</body>
+</html>
