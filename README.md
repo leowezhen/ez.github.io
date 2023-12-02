@@ -1,1 +1,1 @@
-# ez.github.io
+javajam-website
